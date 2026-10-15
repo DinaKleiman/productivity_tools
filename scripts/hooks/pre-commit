@@ -1,0 +1,5 @@
+#!/bin/sh
+# Runs the release-check security scan on staged files before every commit.
+# Install once per clone: scripts/install-hooks.sh
+HERE="$(cd "$(dirname "$0")" && pwd)"
+exec python3 "$HERE/../../.claude/skills/release-check/scripts/check.py" pre-commit --staged-only --root "$(git rev-parse --show-toplevel)"

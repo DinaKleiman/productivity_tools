@@ -1,2 +1,8 @@
 .DS_Store
 *.shortcut
+.env
+*.pem
+*.key
+tests/build/
+.claude/skills/release-check/denylist.local.txt
+__pycache__/

@@ -1,0 +1,7 @@
+# Personal terms that must never appear in this repo or its releases.
+# Copy this file to denylist.local.txt (git ignores that copy) and replace the examples with real ones.
+# One term per line. Plain ASCII words match whole words only, case-insensitive.
+# Anything with digits, symbols or non-ASCII letters matches as plain text.
+ExampleFirstName
+ExampleFamilyCalendarName
+00000000-0000-0000-0000-000000000000
