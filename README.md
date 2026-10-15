@@ -10,9 +10,9 @@ Copy a message — in Hebrew, Russian or English — run the shortcut, and it be
 
 ### Install
 
-**[⬇ Download the latest version](https://github.com/DinaKleiman/productivity_tools/releases/latest/download/iphone_create_calendar_event.public.shortcut)**
+**[⬇ Download the latest version](https://github.com/DinaKleiman/productivity_tools/releases/latest)**
 
-1. Open the link above on your iPhone and download the file.
+1. Open the link above on your iPhone and download the `iphone_create_calendar_event.public.vX.Y.Z.shortcut` file.
 2. Open it from the Files app and tap **Add Shortcut**.
 3. Choose the calendar for new events when asked.
 4. Open the shortcut and replace `your_name_here` in the name list with your own names.
@@ -56,5 +56,5 @@ Requires a Mac signed in to iCloud.
 
 ```bash
 plutil -convert binary1 -o /tmp/unsigned.shortcut IphoneShortcuts/iphone_create_calendar_event.plist
-shortcuts sign --mode anyone --input /tmp/unsigned.shortcut --output iphone_create_calendar_event.public.shortcut
+shortcuts sign --mode anyone --input /tmp/unsigned.shortcut --output iphone_create_calendar_event.public.vX.Y.Z.shortcut
 ```
